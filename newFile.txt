@@ -1,1 +1,11 @@
-Added new content by PASCURO
+What is the difference between add, commit, and push?
+
+git add:
+add allows you to add a file (or all files if -A is used) that are unchecked within the working directory, which will be put into the staging area once this command is executed.
+
+git commit:
+commit allows you to update your local branch/image with the staged files/changes that were in your staging area, which can be complimented by adding a commit message (using -m and inputting your message between double quotes), these changes will only remain on your local branch until you push these changes to the origin branch in the git repository.
+
+git push:
+push allows you to get all of the changes/commits done on your local copy/branch that the origin branch is not yet aware of (usually when your local branch has newer changes) and updates the origin/remote branch, it can be put as uploading your local branch image to the remote repository.
+
